@@ -83,8 +83,8 @@
     port: "{{ http_port }}"
     state: started
 
-handlers:
-  - name: restart tomcat
-    service:
-      name: tomcat
-      state: restarted
+#handlers:
+ # - name: restart tomcat
+   # service:
+   #   name: tomcat
+    #  state: restarted
